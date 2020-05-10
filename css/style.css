@@ -1,0 +1,307 @@
+body {
+    min-width: 1219px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background: #ffffff;
+}
+
+.conteiner {                          /*Центровщик сайта, применим ко всему контексту.*/
+    width: 1219px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-header {    
+    background-color: #ffffff;
+    background-image: url("../img/Rectangle.png");
+    background-size: cover;  
+    padding-left: 55px;
+    padding-right: 55px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.header-top::after { /*Псевдораспорка*/
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+    float: left;
+    padding: 20px 0;
+    padding-left: 55px;
+}
+
+.logo_2 {
+    position: absolute;
+    z-index: 10;
+    float: left;
+    padding: 20px 0;   
+    padding-left: 55px; 
+}
+  
+.logo img {
+    display: block;
+  }
+
+.main-menu {    
+    float: right;
+    font-style: normal;
+    list-style: none;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    line-height: 0;
+    padding-right: 55px;
+}
+
+.main-menu li {
+    display: inline-block;   
+    text-align: right;    
+    margin-right: 5px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+    color: #12FF4a;
+}
+
+.piperNetIsHere {
+    background-image: url("../img/image_Jumbotron.png");
+    background-size: cover; 
+    padding: 160px 0;
+    margin: 0;
+}
+
+.piperNetText {
+    display: block;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.problem {
+    margin: 0;
+    margin-top: -1px;
+    padding: 0;
+    background: #EEEEEE;
+    background-size: cover; 
+    border-top: 1px solid #EEEEEE;    
+}
+
+.theProblemHeader {
+    display: block;
+    margin: 48px 55px 16px 55px;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.theProblemText {
+    display: inline-block;
+    margin: 0 55px 92px 55px;
+    padding: 0;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000; 
+}
+
+.theProblemText p:first-child {
+    margin-top: 0;      
+}
+
+.theProblemText p:last-child {
+    margin-bottom: 0;
+}
+
+.piedPiperCoin {
+    background-image: url("../img/Pied_PiperCoin.png");
+    background-size: cover; 
+    padding: 167px 0;
+    margin: 0;
+}
+
+.piedPiperCoinText {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+    margin: 0 163px;
+}
+
+.introducing {
+    background: #FFFFFF;
+    background-size: cover;
+}
+
+.introducingHeader {
+    margin: 48px 55px 16px 55px;
+    font-size: 64px;
+    line-height: 75px;
+    font-style: normal;
+    text-align: center;
+    color: #007765;
+}
+
+.introducingBlock1 {
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 9;
+}
+
+.introducingBlock1Text {        
+    margin: 0 55px 0 218px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: normal;
+    text-align: justify;
+    color: #000000;
+}
+
+.introducingBlock1Logo {
+    position: absolute;
+    top: 0;
+    left: 55px;
+    padding: 0;     
+}
+
+.introducingBlock2 {
+    margin: 0 55px 92px 55px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: normal;
+    text-align: justify;
+    color: #000000;
+}
+
+.introducingBlock2 p:first-child {
+    margin-top: 0;
+}
+
+.introducingBlock2 p:last-child {
+    margin-bottom: 0;
+}
+
+.theTeam {
+    background: #EEEEEE;
+    margin: 0; 
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.theTeamText {
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+    text-align: center;
+    color: #007765;
+    margin: 48px 55px 56px 55px;
+}
+
+.teamMemberCard {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 40px;
+    width: 33%;
+    text-align: justify;
+}
+
+.lastCard {
+    margin-right: -5px; 
+}
+
+.theTeamName {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;    
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+    
+}
+
+.theTeamScills {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 21px;
+    color: #000000;
+}
+
+.teamImage {
+    background: url("../img/Richard_Hendricks.png") no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.teamImage2 {
+    background: url("../img/Dinesh_Chugtai.png") no-repeat;
+    background-size: cover;
+}
+
+.teamImage3 {
+    background: url("../img/Bertram_Gilfoyle.png") no-repeat;
+    background-size: cover;
+}
+
+.teamImage4 {
+    background: url("../img/Jared_Dunn.png") no-repeat;
+    background-size: cover;
+}
+
+.teamImage5 {
+    background: url("../img/Monica_Hall.png") no-repeat;
+    background-size: cover;
+}
+
+.teamImage6 {
+    background: url("../img/Nelson_Bighetti.png") no-repeat;
+    background-size: cover;
+}
+
+.piedPiperFooter {
+    background: #333333;
+    background-size: cover;
+    padding: 48px 340px 64px 340px;
+}
+
+.footerText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
